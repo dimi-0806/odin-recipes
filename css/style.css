@@ -1,53 +1,74 @@
-.home-title {
+body {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 120px;
-    text-align: center;
+}
+
+.home-title {
+    font-size: 80px;
+    /* text-align: center; */
     color: rgb(49, 0, 49);
-    margin: 50px auto 100px auto;
+    margin: 50px auto 50px 20px;
+    letter-spacing: -0.02em;
 }
 
 
 
 .recipe-card {
     display: inline-block;
-    margin-left: 20px;
+    /* margin-left: 20px; */
     /* margin-right: 20px; */
     
 }
 
 
+/* .recipe-card-image { */
+    /* margin: 20px 20px 0px 20px; */
+    /* display: block; */
+    /* border-top-left-radius: 25px; */
+    /* border-top-right-radius: 25px; */
+    /* border-top: 2px solid gray; */
+    /* border-left: 2px solid gray; */
+    /* border-right: 2px solid gray; */
 
-.recipe-card-image {
-    margin: 20px 20px 0px 20px;
-    display: block;
-    border-top-left-radius: 25px;
-    border-top-right-radius: 25px;
-    border-top: 2px solid gray;
-    border-left: 2px solid gray;
-    border-right: 2px solid gray;
-
-}
+/* } */
 
 
 
 .recipe-card-link {
-    background: rgb(255, 190, 11, 0.6);
+    background: rgba(255, 255, 255, 0.6);
     display: block;
     box-sizing: border-box;
-    height: 100px;
+    height: 50px;
     width: 400px;
-    font-size: 25px;
-    padding: 40px;
-    margin: 0px 20px 20px 20px;
+    font-size: 22px;
+    padding: 20px 20px 0px 20px;
+    margin: 0px 10px 0px 20px;
+    border-left: 2px solid gray;
+    border-right: 2px solid gray;
+}
+
+.brief-description {
+    background: rgba(255, 255, 255, 0.6);
+    display: block;
+    box-sizing: border-box;
+    color: rgb(121, 121, 121);
+    width: 400px;
+    height: 50px;
+    font-size: 16px;
+    margin: 0px 10px 20px 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 1px;
     border-bottom-left-radius: 25px;
     border-bottom-right-radius: 25px;
     border-bottom: 2px solid gray;
     border-left: 2px solid gray;
     border-right: 2px solid gray;
+
 }
 
 .placeholder-image.sinigang {
-    margin: 20px 20px 0px 20px;
+    margin: 20px 10px 0px 20px;
+    box-sizing: border-box;
     display: block;
     width: 400px;
     height: 300px;
@@ -57,10 +78,14 @@
     background-repeat: no-repeat;
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
+    border-top: 2px solid gray;
+    border-left: 2px solid gray;
+    border-right: 2px solid gray;
 }
 
 .placeholder-image.pancake {
-    margin: 20px 20px 0px 20px;
+    margin: 20px 10px 0px 20px;
+    box-sizing: border-box;
     display: block;
     width: 400px;
     height: 300px;
@@ -70,11 +95,15 @@
     background-repeat: no-repeat;
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
+    border-top: 2px solid gray;
+    border-left: 2px solid gray;
+    border-right: 2px solid gray;
     
 }
 
 .placeholder-image.mango-float {
-    margin: 20px 20px 0px 20px;
+    margin: 20px 10px 0px 20px;
+    box-sizing: border-box;
     display: block;
     width: 400px;
     height: 300px;
@@ -84,6 +113,9 @@
     background-repeat: no-repeat;
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
+    border-top: 2px solid gray;
+    border-left: 2px solid gray;
+    border-right: 2px solid gray;
 }
 
 ul {
