@@ -1,21 +1,12 @@
-/* .recipe-card { */
-
-/* } */
-/* .home-header { */
-    /* background: rgb(49, 0, 49); */
-    /* height: 180px; */
-/* } */
-
 .home-title {
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 120px;
     text-align: center;
     color: rgb(49, 0, 49);
-    margin: 0 auto 100px auto;
+    margin: 50px auto 100px auto;
 }
 
-.recipe-card .all{
-    margin: auto;
-}
+
 
 .recipe-card {
     display: inline-block;
@@ -24,13 +15,20 @@
     
 }
 
+
+
 .recipe-card-image {
     margin: 20px 20px 0px 20px;
     display: block;
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
+    border-top: 2px solid gray;
+    border-left: 2px solid gray;
+    border-right: 2px solid gray;
 
 }
+
+
 
 .recipe-card-link {
     background: rgb(255, 190, 11, 0.6);
@@ -43,6 +41,49 @@
     margin: 0px 20px 20px 20px;
     border-bottom-left-radius: 25px;
     border-bottom-right-radius: 25px;
+    border-bottom: 2px solid gray;
+    border-left: 2px solid gray;
+    border-right: 2px solid gray;
+}
+
+.placeholder-image.sinigang {
+    margin: 20px 20px 0px 20px;
+    display: block;
+    width: 400px;
+    height: 300px;
+    background-image: url("../images/sinigang.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
+.placeholder-image.pancake {
+    margin: 20px 20px 0px 20px;
+    display: block;
+    width: 400px;
+    height: 300px;
+    background-image: url("../images/seafood-pancake.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    
+}
+
+.placeholder-image.mango-float {
+    margin: 20px 20px 0px 20px;
+    display: block;
+    width: 400px;
+    height: 300px;
+    background-image: url("../images/mango-float.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
 }
 
 ul {
